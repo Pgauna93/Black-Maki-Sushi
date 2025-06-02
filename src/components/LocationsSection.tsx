@@ -10,9 +10,9 @@ const LocationsSection: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white shadow-xl p-8">
-            <h3 className="text-2xl font-bold mb-4">BLACK MAKI MIAMI BEACH</h3>
-            <div className="space-y-4 mb-6">
+          <div className="bg-white shadow-xl p-6 max-w-md">
+            <h3 className="text-xl font-bold mb-4">BLACK MAKI MIAMI BEACH</h3>
+            <div className="space-y-3 mb-4 text-sm">
               <p><strong>Address:</strong><br />1234 Ocean Drive, Miami Beach, FL 33139</p>
               <p><strong>Hours:</strong><br />Mon-Thu: 11:30am - 10:00pm<br />Fri-Sat: 11:30am - 11:00pm<br />Sun: 12:00pm - 9:00pm</p>
               <p><strong>Phone:</strong><br />(305) 555-0123</p>
@@ -21,7 +21,7 @@ const LocationsSection: React.FC = () => {
               href="https://goo.gl/maps/your-location" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-black hover:bg-red-600 text-white font-bold py-2 px-6 transition-colors duration-300"
+              className="inline-block bg-black hover:bg-red-600 text-white font-bold py-2 px-4 text-sm transition-colors duration-300"
             >
               GET DIRECTIONS
             </a>
